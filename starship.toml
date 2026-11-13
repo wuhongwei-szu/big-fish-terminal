@@ -1,0 +1,45 @@
+# Big Fish terminal: local theme configuration
+add_newline = true
+command_timeout = 1000
+
+format = """
+[🐋 主人](bold #85C1E9)\
+[ in ](#8FA3B0)\
+[$directory](bold #5DADE2)\
+$git_branch\
+$git_status\
+$time\
+$line_break\
+[❯](bold #F39C12) """
+
+[directory]
+style = "bold #5DADE2"
+truncation_length = 0
+truncate_to_repo = false
+home_symbol = "~"
+format = "[$path]($style)"
+
+[git_branch]
+symbol = ""
+style = "bold #F39C12"
+format = "[ $branch]($style)"
+
+[git_status]
+style = "bold #F1948A"
+format = "[$all_status$ahead_behind]($style)"
+
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "#8FA3B0"
+format = "[ $time]($style)"
+
+[character]
+success_symbol = "[❯](bold #F39C12)"
+error_symbol = "[❯](bold #F1948A)"
+vimcmd_symbol = "[❮](bold #58D68D)"
+
+[cmd_duration]
+min_time = 2000
+format = "[ took $duration]($style)"
+style = "#8FA3B0"

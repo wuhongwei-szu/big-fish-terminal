@@ -1,0 +1,23 @@
+{
+  "name": "Big Fish Blue",
+  "background": "#1C2833",
+  "foreground": "#F5F5F5",
+  "cursorColor": "#F39C12",
+  "selectionBackground": "#2E4053",
+  "black": "#1C2833",
+  "red": "#F1948A",
+  "green": "#58D68D",
+  "yellow": "#F4D03F",
+  "blue": "#3498DB",
+  "purple": "#5DADE2",
+  "cyan": "#85C1E9",
+  "white": "#F5F5F5",
+  "brightBlack": "#2E4053",
+  "brightRed": "#FFB3AD",
+  "brightGreen": "#82E0AA",
+  "brightYellow": "#F9E79F",
+  "brightBlue": "#5DADE2",
+  "brightPurple": "#5DADE2",
+  "brightCyan": "#AED6F1",
+  "brightWhite": "#FFFFFF"
+}
